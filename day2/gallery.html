@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 32px;
+        }
+        .main-heading{
+            font-size: 32px;
+            letter-spacing: 0.3px;
+            border-top: 2px solid tomato;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .gallery-items img{
+            height: 250px;
+            width: 100%;
+        }
+        .gallery{
+            display: grid;
+            /* grid-template-columns: 300px 300px 300px; */
+            gap: 30px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .gallery-items a{
+            display: block;
+            font-size: 28px;
+            text-decoration: none;
+            font-family: sans-serif;
+            color: #000;
+            margin-bottom: 8px;
+            
+        }
+        .gallery-items p{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="main-heading">Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+        
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+        
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+        
+        <div class="gallery-items">
+            <a href="day2/html.jpg">
+           
+            <img src="day2/html.jpg" alt="Image 1" />
+        </a>
+        <a href="day2/html.jpg">Image 1</a>
+        <p>1st nov 2022</p>
+        </div>
+        
+        
+
+    </div>
+    
+</body>
+</html>

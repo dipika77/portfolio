@@ -1,0 +1,21 @@
+h1{
+    color: orange;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 50px;
+    font-weight: 100;
+    color: #e52f2f;
+    padding: 20px;
+}
+#dipi{
+    font-size: 50px;
+    font-weight: 100;
+    color: blue;
+    padding: 20px;
+
+}
